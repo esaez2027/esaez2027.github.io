@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sapphire Heights Academy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="PHOTOS/bird.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela%20Round">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tinos">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<style media="all">
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 50
+}
+
+body {
+  font-family: "Lato", sans-serif;  
+  background-color: #C9E1F1;
+  overflow-x: hidden;
+}
+
+img.cas {
+   border-radius: 30px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.containerl {
+  position: relative;
+  float: left;
+}
+
+.containerr {
+  position: relative;
+  float: right;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Tinos", sans-serif;
+  color: white;
+}
+
+.centeredl {
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  transform: translate(-50%, -25%);
+  font-family: "Tinos", sans-serif;
+  color: white;
+}
+
+.centeredr {
+  position: absolute;
+  top: 53.5%;
+  left: 30%;
+  transform: translate(-25%, -50%);
+  font-family: "Tinos", sans-serif;
+  color: white;
+}
+
+.centeredlphone {
+  position: absolute;
+  top: 35%;
+  left: 55%;
+  transform: translate(-50%, -25%);
+  font-family: "Tinos", sans-serif;
+  color: white;
+}
+
+.centeredrphone {
+  position: absolute;
+  top: 48.5%;
+  left: 30%;
+  transform: translate(-25%, -50%);
+  font-family: "Tinos", sans-serif;
+  color: white;
+}
+
+.top-left {
+  position: fixed;
+  top: 8px;
+  left: 16px;
+  font-size: 3vw;
+  border-radius: 16px;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  }
+
+  .centered h1 {
+  font-size: 4.5vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredl h1 {
+  font-size: 4.5vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredr h1 {
+  font-size: 4.5vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredlphone h1 {
+  font-size: 7vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredrphone h1 {
+  font-size: 7vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centered h6 {
+  font-size: 4vw;
+  margin:0;
+  color: #E4F0F8;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredl h6 {
+  font-size: 3.5vw;
+  margin:0;
+  color: #E4F0F8;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredr h6 {
+  font-size: 3.5vw;
+  margin:0;
+  color: #E4F0F8;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredlphone h6 {
+  font-size: 5vw;
+  margin:0;
+  color: #E4F0F8;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredrphone h6 {
+  font-size: 5vw;
+  margin:0;
+  color: #E4F0F8;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredl h5 {
+  font-size: 2vw;
+  margin:0;
+  color: #c7e5f7;
+  font-family: "Varela Round", sans-serif;
+  }
+
+  .centeredr h5 {
+  font-size: 2vw;
+  margin:0;
+  color: #c7e5f7;
+  font-family: "Varela Round", sans-serif;
+  }
+
+  .centeredlphone h5 {
+  font-size: 4vw;
+  margin:0;
+  color: #c7e5f7;
+  font-family: "Varela Round", sans-serif;
+  }
+
+  .centeredrphone h5 {
+  font-size: 4vw;
+  margin:0;
+  color: #c7e5f7;
+  font-family: "Varela Round", sans-serif;
+  }
+
+  .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0A2231;
+  overflow-x: hidden;
+  transition: 0.1s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #2888C5;
+  display: block;
+  transition: 0.1s;
+  font-family: "Varela Round", sans-serif;
+}
+
+.sidenav a:hover {
+  color: #79B5DB;
+  text-decoration: underline;
+}
+.video {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.video video {
+  margin-left: 10%;
+}
+.sidenav h1 {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #79B5DB;
+  display: block;
+  transition: 0.1s;
+  font-family: "Varela Round", sans-serif;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#main {
+  transition: margin-left 1.0s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media only screen
+and (min-width : 390px)
+and (max-width : 1000px)
+{
+.laptopdisp {display:none;}
+.mobiledisp {display:block;}
+}
+
+@media only screen
+and (min-width : 1400px)
+and (max-width : 5000px)
+{
+.laptopdisp {display:block;}
+.mobiledisp {display:none;}
+}
+
+p{
+  font-size: 2vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  text-align: center;
+  }
+
+p{
+  font-size: 2vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  text-align: center;
+  }
+
+p{
+  font-size: 4vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  text-align-last: center;
+  }
+
+p{
+  font-size: 4vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  text-align: center;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="laptopdisp">
+  <div class="container">
+  <img src="PHOTOS/IMG_1444.jpeg" style="width: 100%;" class="cas" alt="acad2">
+  <div class="centered" style="width: 100%;"><h1>About Sapphire Heights</h1><h6>Learn about the rich history of Sapphire Heights Academy!</h6></div>
+</div>  
+
+<table style="text-align: left;">
+  <tr>
+    <td>
+      <div class="containerl">
+        <a href="AboutUs.html"><img src="PHOTOS/history.png" style="width: 100%;" class="cas" alt="history"></a>
+        <div class="centeredl" style="width: 100%; top: 10%;"><h6>About Us</h6><h1>History</h1></div>
+        <div class="centeredl" style="line-height: 3vw; width: 100%;"></div>
+      </div>        
+    </td>
+    <td>
+      <div class="containerr">
+        <a href="Founder.html"><img src="PHOTOS/admin.png" style="width: 100%;" class="cas" alt="English"></a>
+        <div class="centeredr" style="width: 100%; top: 13.5%;"><h6>About Us</h6><h1>Meet our Administrator</h1></div>
+        <div class="centeredr" style="line-height: 3vw; width: 100%;"></div>
+      </div>        
+    </td>
+  </tr>
+</table>
+
+<table style="text-align: left;">
+    <tr>
+      <td>
+        <div class="containerl">
+          <a href="Staff.html"><img src="PHOTOS/staff.png" style="width: 100%;" class="cas" alt="English"></a>
+          <div class="centeredl" style="width: 100%; top: 10%;"><h6>About Us</h6><h1>Meet our Staff</h1></div>
+          <div class="centeredl" style="line-height: 3vw; width: 100%;"></div>
+        </div>        
+      </td>
+      <td>
+        <div class="containerr">
+          <img src="PHOTOS/blank.png" style="width: 100%;" class="cas" alt="English">
+          <div class="centeredr" style="width: 100%; top: 13.5%;"></div>
+          <div class="centeredr" style="line-height: 3vw; width: 100%;"></div>
+        </div>        
+        <div id="main" class="top-left">
+            <span style="font-size:10px;cursor:pointer; color: #79B5DB;" onclick="openNav()"><span class="material-symbols-outlined" style="font-size: 40px;">menu</span></span>
+          </div>
+      </td>
+    </tr>
+  </table>
+
+<br>
+<br>
+
+<br>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="About.html">About Sapphire Heights</a>
+  <a href="ContactUs.html">Contact Us</a>
+  <a href="Courses.html">Courses</a>
+  <a href="Clubs.html">Extra-curricular</a>
+  <h1 style="position: absolute; bottom: 70px; left: 40px;">Courses<br>Empower your mind with our educational courses</h1>
+  <img src="PHOTOS/Screenshot_2023-11-30_at_8.16.28_PM-removebg-preview.png" alt="edu" style="width: 50px; position: absolute; bottom: 80px; left: 15px;">
+</div>
+
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+
+</div>
+
+<div class="mobiledisp">
+  <div class="container">
+  <img src="PHOTOS/IMG_1444.jpeg" style="width: 100%;" class="cas" alt="acad2">
+  <div class="centered" style="width: 100%;"><h1>About Sapphire Heights Academy</h1><h6>Learn about the rich history of Sapphire Heights Academy!</h6></div>
+  <div class="top-left">
+    <span style="font-size:10px;cursor:pointer; color: #79B5DB;" onclick="openphone()"><span class="material-symbols-outlined" style="font-size: 40px;">menu</span></span>
+  </div>
+</div>  
+
+<table style="text-align: left;">
+  <tr>
+    <td>
+      <div class="containerl">
+        <a href="AboutUs.html"><img src="PHOTOS/history.png" style="width: 100%;" class="cas" alt="English"></a>
+        <div class="centeredlphone" style="width: 100%; top: 10%;"><h6>About Us</h6><h1>History</h1></div>
+        <div class="centeredlphone" style="line-height: 5.5vw; width: 100%;"></div>
+      </div>        
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="containerr">
+        <a href="Founder.html"><img src="PHOTOS/admin.png" style="width: 100%;" class="cas" alt="biology"></a>
+        <div class="centeredrphone" style="width: 100%; top: 13.5%;"><h6>About Us</h6><h1>Meet our Administrator</h1></div>
+        <div class="centeredrphone" style="line-height: 5.5vw; width: 100%;"></div>
+      </div>        
+    </td>
+  </tr>
+</table>
+<table>
+    <tr>
+        <td>
+          <div class="containerr">
+            <a href="Staff.html"><img src="PHOTOS/staff.png" style="width: 100%;" class="cas" alt="biology"></a>
+            <div class="centeredrphone" style="width: 100%; top: 13.5%;"><h6>About Us</h6><h1>Meet our Staff</h1></div>
+            <div class="centeredrphone" style="line-height: 5.5vw; width: 100%;"></div>
+          </div>        
+        </td>
+      </tr>
+</table>
+
+<br>
+<br>
+
+
+<br>
+
+<div id="mobileside" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closephone()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="About.html">About Sapphire Heights</a>
+  <a href="ContactUs.html">Contact Us</a>
+  <a href="Courses.html">Courses</a>
+  <a href="Clubs.html">Extra-curricular</a>
+  <h1 style="position: absolute; bottom: 70px; left: 40px;">Sapphire Heights Academy<br>Home of the Blue Phoenix</h1>
+  <img src="PHOTOS/Screenshot_2023-11-30_at_8.16.28_PM-removebg-preview.png" alt="edu" style="width: 50px; position: absolute; bottom: 80px; left: 15px;">
+</div>
+
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+
+  function openphone() {
+    document.getElementById("mobileside").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+  }
+  
+  function closephone() {
+    document.getElementById("mobileside").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+
+</script>
+
+</div>
+
+</body>
+</html> 

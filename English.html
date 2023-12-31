@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sapphire Heights Academy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="PHOTOS/bird.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela%20Round">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tinos">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<style media="all">
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 50
+}
+
+body {
+  font-family: "Lato", sans-serif;  
+  background-color: #C9E1F1;
+  overflow-x: hidden;
+}
+
+img.cas {
+   border-radius: 30px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.containerl {
+  position: relative;
+  float: left;
+}
+
+.containerr {
+  position: relative;
+  float: right;
+}
+
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Tinos", sans-serif;
+  color: white;
+}
+
+.centeredl {
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  transform: translate(-50%, -25%);
+  font-family: "Tinos", sans-serif;
+  color: white;
+}
+
+.centeredr {
+  position: absolute;
+  top: 53.5%;
+  left: 30%;
+  transform: translate(-25%, -50%);
+  font-family: "Tinos", sans-serif;
+  color: white;
+}
+
+.centeredlphone {
+  position: absolute;
+  top: 35%;
+  left: 55%;
+  transform: translate(-50%, -25%);
+  font-family: "Tinos", sans-serif;
+  color: white;
+}
+
+.centeredrphone {
+  position: absolute;
+  top: 48.5%;
+  left: 30%;
+  transform: translate(-25%, -50%);
+  font-family: "Tinos", sans-serif;
+  color: white;
+}
+
+.top-left {
+  position: fixed;
+  top: 8px;
+  left: 16px;
+  font-size: 3vw;
+  border-radius: 16px;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  }
+
+  .centered h1 {
+  font-size: 2.8vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredl h1 {
+  font-size: 2.2vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredr h1 {
+  font-size: 2.2vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredlphone h1 {
+  font-size: 3.8vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredrphone h1 {
+  font-size: 3.8vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centered h6 {
+  font-size: 3vw;
+  margin:0;
+  color: #E4F0F8;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredl h6 {
+  font-size: 2.5vw;
+  margin:0;
+  color: #E4F0F8;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredr h6 {
+  font-size: 2.5vw;
+  margin:0;
+  color: #E4F0F8;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredlphone h6 {
+  font-size: 4vw;
+  margin:0;
+  color: #E4F0F8;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredrphone h6 {
+  font-size: 4vw;
+  margin:0;
+  color: #E4F0F8;
+  font-family: "Tinos", sans-serif;
+  }
+
+  .centeredl h5 {
+  font-size: 1vw;
+  margin:0;
+  color: #c7e5f7;
+  font-family: "Varela Round", sans-serif;
+  text-shadow: 2px 2px black;
+  text-decoration: none;
+  }
+
+  .centeredr h5 {
+  font-size: 1vw;
+  margin:0;
+  color: #c7e5f7;
+  font-family: "Varela Round", sans-serif;
+  text-shadow: 2px 2px black;
+  text-decoration: none;
+  }
+
+  .centeredlphone h5 {
+  font-size: 2vw;
+  margin:0;
+  color: #c7e5f7;
+  font-family: "Varela Round", sans-serif;
+  text-shadow: 2px 2px black;
+  text-decoration: none;
+  }
+
+  .centeredrphone h5 {
+  font-size: 2vw;
+  margin:0;
+  color: #c7e5f7;
+  font-family: "Varela Round", sans-serif;
+  text-shadow: 2px 2px black;
+  text-decoration: none;
+  }
+
+  .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0A2231;
+  overflow-x: hidden;
+  transition: 0.1s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #2888C5;
+  display: block;
+  transition: 0.1s;
+  font-family: "Varela Round", sans-serif;
+}
+
+.sidenav a:hover {
+  color: #79B5DB;
+  text-decoration: underline;
+}
+.video {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.video video {
+  margin-left: 10%;
+}
+.sidenav h1 {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #79B5DB;
+  display: block;
+  transition: 0.1s;
+  font-family: "Varela Round", sans-serif;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#main {
+  transition: margin-left 1.0s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media only screen
+and (min-width : 390px)
+and (max-width : 1000px)
+{
+.laptopdisp {display:none;}
+.mobiledisp {display:block;}
+}
+
+@media only screen
+and (min-width : 1400px)
+and (max-width : 5000px)
+{
+.laptopdisp {display:block;}
+.mobiledisp {display:none;}
+}
+
+p{
+  font-size: 2vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  text-align: center;
+  }
+
+p{
+  font-size: 2vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  text-align: center;
+  }
+
+p{
+  font-size: 4vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  text-align-last: center;
+  }
+
+p{
+  font-size: 4vw;
+  margin:0;
+  color: white;
+  font-family: "Tinos", sans-serif;
+  text-align: center;
+  }
+
+.video {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="laptopdisp">
+  <div class="container">
+  <img src="PHOTOS/IMG_1444.jpeg" style="width: 100%;" class="cas" alt="acad2">
+  <div class="centered" style="width: 100%;"><h1>English Sonnets</h1><h6>Explore the art and creativity of Sapphire Heights Academy. <br>Echoes of Heartache: A Collection of Tear-Stained Love Verses<br></h6></div>
+</div>  
+
+<table style="text-align: left;">
+  <tr>
+    <td>
+      <div class="containerl">
+        <a href="noahshakesperean.html"><img src="PHOTOS/noahshakesperean.png" style="width: 100%;" class="cas" alt="conangray"></a>
+        <div class="centeredl" style="width: 100%; top: 5%;"><a href="noahshakesperean.html"><h1>1.1 - Stellar Serenade by Noah De Belen</h1></a></div>
+        <div class="centeredl" style="line-height: 3vw; width: 100%; top: 33%"><a href="noahshakesperean.html"><h5>
+            Through wooded lanes and wealth's abode we've been,
+            <br>
+            In jest, claimed they were beyond our amuse,
+            <br>
+            Socially matched, with backgrounds grim and thin,
+            <br>
+            Fathers that fled, and mothers left to booze.
+            <br>
+            A timeless tale, wherein love never lasts,
+            <br>
+            From afar, I yearn for what was, a tryst,
+            <br>
+            Yet now, in the present, I look upon the past,
+            <br>
+            A once-known soul, lost in life's lone abyss.
+            <br>
+            I mused, wandering, would bring love anew,
+            <br>
+            Said, "Distance breeds fondness," yet love departed,
+            <br>
+            The sole mistake, not fleeing love's pursue,
+            <br>
+            Now see the havoc that left us brokenhearted.
+            <br>
+            O'er seas and stars, we rode, love's own chart,
+            <br>
+            From Saturn's rings to Mars, love, worlds apart.
+        </h5></a></div>  
+      </div>        
+    </td>
+    <td>
+      <div class="containerr">
+        <a href="conangray.html"><img src="PHOTOS/conangray.png" style="width: 100%; float: right;" class="cas" alt="olivia"></a>
+        <div class="centeredr" style="width: 100%; top: 7%;"><a href="conangray.html"><h1>1.2 - Astronomy by Conan Gray</h1></a></div>
+        <div class="centeredr" style="line-height: 3vw; width: 100%; top: 55%;"><a href="conangray.html"><h5>
+          We drive through the woods, rich neighborhoods to watch
+          <br>
+          We joked as we looked that they were too good for us
+          <br>
+          'Cause socially speaking, we were the same
+          <br>
+          With runaway fathers and mothers who drank
+          <br>
+          A tale old as time, young love don't last for life
+          <Br>
+          From far away, I wish I'd stayed with you
+          <br>
+          But here, face to face, a stranger that I once knew
+          <br>
+          I thought if I wandered, I'd fall back in love
+          <br>
+          You said distance brings fondness, but guess not with us
+          <br>
+          The only mistake that we didn't make was run
+          <br>
+          (Now look what we've done)
+          <Br>
+          We've traveled the seas, we've ridden the stars
+          <br>
+          We've seen everything from Saturn to Mars
+          <br>
+          As much as it seems like you own my heart
+          <br>
+          It's astronomy, we're two worlds apart
+        </h5></a></div>
+      </div>        
+    </td>
+  </tr>
+</table>
+<table style="text-align: left;">
+  <tr>
+    <td>
+      <div class="containerl">
+        <a href="noahpetrarchan.html"><img src="PHOTOS/noahpet.png" style="width: 100%;" class="cas" alt="olivia"></a>
+        <div class="centeredl" style="width: 100%; top: 5%;"><a href="noahpetrarchan.html"><h1>2.1 - Betrayal, Without Remorse by Noah De Belen</h1></a></div>
+        <div class="centeredl" style="line-height: 3vw; width: 100%; top: 33%"><a href="noahpetrarchan.html"><h5>
+          Brown eyes, guilt-laden, love whispered white lies,
+          <br>
+          I played the fool, aware, my heart askew,
+          <br>
+          To her, your words, perhaps actions untrue,
+          <Br>
+          Silent, I stayed, my love veiled in disguise.
+          <br>
+          Betrayed, your actions like venomous spies,
+          <br>
+          Unrepentant gaze, remorse in review,
+          <br>
+          The pain you caused, my heart's nowhere anew,
+          <br>
+          Sorry eludes, in your cold callous lies.
+          <br>
+          Together, in your arms, I found my best,
+          <br>
+          Embraced you at your worst, love's sweetest taste,
+          <br>
+          Yet it mattered little, love put to test.
+          <br>
+          Two weeks passed, a new passion you embraced,
+          <br>
+          With no cheating's stain, but traitor's harsh jest,
+          <br>
+          In the ruins of trust, my heart misplaced
+        </h5></a></div>  
+      </div>        
+    </td>
+    <td>
+      <div class="containerr">
+        <a href="oliviarodrigo.html"><img src="PHOTOS/oliviarodrigo.png" style="width: 100%;" class="cas" alt="bg"></a>
+        <div class="centeredr" style="width: 100%; top: 7%;"><a href="oliviarodrigo.html"><h1>2.2 - Traitor by Olivia Rodrigo</h1></a></div>
+        <div class="centeredr" style="line-height: 3vw; width: 100%; top: 55%;"><a href="oliviarodrigo.html"><h5>
+          Brown guilty eyes and little white lies, yeah
+          <br>
+          I played dumb, but I always knew
+          <br>
+          That you talked to her, maybe did even worse
+          <br>
+          I kept quiet so I could keep you
+          <Br>
+          You betrayed me
+          <br>
+          And I know that you'll never feel sorry
+          <br>
+          For the way I hurt, yeah
+          <bR>
+          You talked to her when we were together
+          <br>
+          Loved you at your worst, but that didn't matter
+          <br>
+          It took you two weeks to go off and date her
+          <br>
+          Guess you didn't cheat, but you're still a traitor
+        </h5></a></div>
+      </div>        
+    </td>
+  </tr>
+</table>
+<table style="text-align: left;">
+    <tr>
+      <td>
+        <div class="containerl">
+          <a href="ninoshakesperean.html"><img src="PHOTOS/ninoshakes.png" style="width: 100%;" class="cas" alt="mythroid"></a>
+          <div class="centeredl" style="width: 100%; top: 5%;"><a href="ninoshakesperean.html"><h1>3.1 - Endless Wanderlust by Nino Malang</h1></a></div>
+          <div class="centeredl" style="line-height: 3vw; width: 100%; top: 30%;"><a href="ninoshakesperean.html"><h5>
+            I sought for the troth of all my precious
+            <br>
+            All of my life, holding for a boundless fate
+            <br>
+            Enkindling twilight, the stars so callous
+            <Br>
+            Journey to unravel, memories to create
+            <br>
+            With such small hope, our wills scream to prevail
+            <br>
+            Bearing the pain of man's consequences
+            <br>
+            Through God's true providence, we weep in frail
+            <br>
+            Still in the gist of us, we find solace in distress
+            <br>
+            A journey for truth, path to uncover
+            <br>
+            Amidst the gales of sorrow, we proclaim
+            <br>
+            Fighting for loves sake, light to recover
+            <br>
+            For eternal flames burn the passion we claim
+            <br>
+            In all of eternity, I will not forget
+            <br>
+            That say of hope and cheers for chalice I shall beget
+          </h5></a></div>
+          <div class="top-left">
+            <span style="font-size:10px;cursor:pointer; color: #79B5DB;" onclick="openNav()"></span>
+          </div>
+          
+        </div>        
+      </td>
+      <td>
+        <div class="containerr">
+          <a href="mythandroid.html"><img src="PHOTOS/mythandroid.png" style="width: 100%; float: right;" class="cas" alt="beatles"></a>
+          <div class="centeredr" style="width: 100%; top: 6%;"><a href="mythandroid.html"><h1>3.2 - Forever Lost by Myth & Roid</h1></a></div>
+          <div class="centeredr" style="line-height: 3vw; width: 100%; top: 52%;"><a href="mythandroid.html"><h5>
+            I sighed that I lost something precious
+            <br>
+            I know that there may never be
+            <br>
+            An end to the price that we pay for our dreams
+            <br>
+            It can never be repaid to carry on is to carry a burden
+            <br>
+            In the twilight, we're praying for the lost
+            <br>
+            Fight all our grief, fight all our pain
+            <br>
+            To the fallen, we're hurting for the lost
+            <br>
+            Still we try to find solace, hand in hand together
+            <br>
+            In the twilight, we're going down this road
+            <br>
+            Full of your hope, full of your faith
+            <br>
+            To the fallen, we're going down this road
+            <br>
+            My journey has to go on with you
+            <br>
+            We will remember
+            <br>
+            That there's hope
+          </h5></a></div>
+        </div>        
+      </td>
+    </tr>
+  </table>
+  <table style="text-align: left;">
+    <tr>
+      <td>
+        <div class="containerl">
+          <a href="ninopetrarchan.html"><img src="PHOTOS/ninopet.png" style="width: 100%;" class="cas" alt="mythroid"></a>
+          <div class="centeredl" style="width: 100%; top: 5%;"><a href="ninopetrarchan.html"><h1>4.1 - What could've been by Nino Malang</h1></a></div>
+          <div class="centeredl" style="line-height: 3vw; width: 100%; top: 30%;"><a href="ninopetrarchan.html"><h5>
+            Yesterday all troubles, so far away
+            <br>
+            Suddenly, all thoughts of love flow my game
+            <br>
+            Day by day, relighting yesterday's blame
+            <br>
+            Thy love for thee was such a game to play
+            <Br>
+            A place to shed tears and pray in dismay
+            <br>
+            Oh unfulfilling past, I trust aflame
+            <br>
+            Reminiscing treasures of the past, an undying flame
+            <br>
+            Wondering of the secrets that led me astray
+            <br>
+            Words, I have longed to say were such mistakes
+            <br>
+            For old day's amendment now deemed in pain
+            <br>
+            Thy love from the past, nothing but heartache
+            <br>
+            Nows a place to cover, but soon forsake
+            <br>
+            Relieving the demands of yesterday's vain
+            <br>
+            For yesterday's dream, I sought, for my sake
+          </h5></a></div>
+          <div class="top-left">
+            <span style="font-size:10px;cursor:pointer; color: #79B5DB;" onclick="openNav()"></span>
+          </div>
+          
+        </div>        
+      </td>
+      <td>
+        <div class="containerr">
+          <a href="beatles.html"><img src="PHOTOS/beatles.png" style="width: 100%; float: right;" class="cas" alt="beatles"></a>
+          <div class="centeredr" style="width: 100%; top: 7%;"><a href="beatles.html"><h1>4.2 - Yesterday by The beatles</h1></a></div>
+          <div class="centeredr" style="line-height: 3vw; width: 100%; top: 52%"><a href="beatles.html"><h5>
+            Yesterday all my troubles seemed so far away.
+            <br>
+            Now it looks as though they're here to stay.
+            <br>
+            Oh, I believe in yesterday.
+            <br>
+            Yesterday love was such an easy game to play.
+            <br>
+            Now I need a place to hide away.
+            <br>
+            Oh, I believe in yesterday.
+            <br>
+            Why she had to go?
+            <br>
+            I don't know, she wouldn't say.
+            <br>
+            I said something wrong.
+            <br>
+            Now I long for yesterday.
+            <br>
+            Yesterday love was such an easy game to play.
+            <br>
+            Now I need a place to hide away.
+            <br>
+            Oh, I believe in yesterday.
+            <Br>
+            Now I long for yesterday.
+          </h5></a></div>
+        </div>        
+      </td>
+    </tr>
+  </table>
+  <table style="text-align: left;">
+    <tr>
+      <td>
+        <div class="containerl">
+          <a href="ellizsonshakesperean.html"><img src="PHOTOS/eshakesperean.png" style="width: 100%;" class="cas" alt="kdot"></a>
+          <div class="centeredl" style="width: 100%; top: 5%;"><a href="ellizsonshakesperean.html"><h1>5.1 - How Love Unravels by Ellizson Saez</h1></a></div>
+          <div class="centeredl" style="line-height: 3vw; width: 100%; top: 33%"><a href="ellizsonshakesperean.html"><h5>
+            With no cars on curb, wouldst I still be loved?          
+            <br>                                              
+            Lacking deep pockets, wouldst thou be loving?
+            <br>
+            Speaketh truth, I prefer trust, tis above     
+            <br> 
+            Keep it sincere', don't hast thee, hath nothing
+            <br>
+            Bestow upon me a contest for wealth 
+            <br>         
+            There is nobody, none to outrun me  
+            <br>          
+            So grant me a challenge for my gold-held   
+            <br>
+            Feeling energized, feeling full of glee          
+            <br>
+            Amidst a life adorned with beauty's grace 
+            <br>   
+            Doth love me completely with all thy heart   
+            <br>
+            Beseech thee, let not passion's flame efface 			
+            <br>		          
+            Seeking only you, love me, never part         
+            <br>
+            To be with thee, I plead, love me with ease
+            <br>						
+            In thy arms I need, prithee, love me, please
+          </h5></a></div>        
+          <div class="top-left">
+            <span style="font-size:10px;cursor:pointer; color: #79B5DB;" onclick="openNav()"><span class="material-symbols-outlined" style="font-size: 40px;">menu</span></span>
+          </div> 
+        </div>        
+      </td>
+      <td>
+        <div class="containerr">
+          <a href="kendricklamar.html"><img src="PHOTOS/kendricklamar.png" style="width: 100%; float: right;" class="cas" alt="tyler"></a>
+          <div class="centeredr" style="width: 100%; top: 7%"><a href="kendricklamar.html"><h1>5.2 - LOVE by Kendrick Lamar & Zacari</h1></a></div>
+          <div class="centeredr" style="line-height: 3vw; width: 100%; top: 55%"><a href="kendricklamar.html"><h5>
+            If I didn't ride blade on curb, would you still (love me)?
+            <Br>
+            If I minimized my net worth, would you still (love me)?
+            <br>
+            Keep it a hundred, I'd rather you trust me than to (love me)
+            <Br>
+            Keep it a whole one hund', don't got you I got nothin' (oh, oh)
+            <br>
+            Give me a run for my money
+            <br>
+            There is nobody, no one to outrun me
+            <br>
+            So give me a run for my money
+            <br>
+            Sippin' bubbly, feelin' lovely
+            <br>
+            Livin' lovely
+            <br>
+            Just love me
+            <br>
+            I wanna be with you, just love me
+            <br>
+            I wanna be with you, just love me
+            <br>
+            I wanna be with you, ayy, I wanna be with you
+            <br>
+            I wanna be with you, love me, just love me
+          </h5></a></div>
+        </div>        
+      </td>
+    </tr>
+  </table>
+  <table style="text-align: left;">
+    <tr>
+      <td>
+        <div class="containerl">
+          <a href="ellizsonpetrarchan.html"><img src="PHOTOS/epetrarchan.png" style="width: 100%;" class="cas" alt="kdot"></a>
+          <div class="centeredl" style="width: 100%; top: 5%;"><a href="ellizsonpetrarchan.html"><h1>6.1 - Love's Fault Line by Ellizson Saez</h1></a></div>
+          <div class="centeredl" style="line-height: 3vw; width: 100%; top: 33%"><a href="ellizsonpetrarchan.html"><h5>
+            For thou cause my world to tremble and quake
+            <br>
+            Thou cause seismic waves of love and desire
+            <br>
+            Around we ride, your love shakes me afire
+            <br>
+            And 'tis tearing my heart to bitter break
+            <br>
+            Thy love, the cause of earth's deep, quaking shake
+            <br>
+            Oh, thou make my world shake with love's fine choir
+            <br>
+            Riding around, your love shakes and inspires
+            <br>
+            My heart falters, casting shadows and aches
+            <br>
+            No confrontation seeks my craving heart
+            <br>
+            Communication, not thy heart's ideal
+            <br>
+            Seeking confirmation of thy love's part
+            <br>
+            No more distractions, let our trust be real
+            <br>
+            'Tis my fault, I beg you not to depart
+            <br>
+            When all caves in, in thou I find appeal
+          </h5></a></div>        
+          <div class="top-left">
+            <span style="font-size:10px;cursor:pointer; color: #79B5DB;" onclick="openNav()"><span class="material-symbols-outlined" style="font-size: 40px;">menu</span></span>
+          </div> 
+        </div>        
+      </td>
+      <td>
+        <div class="containerr">
+          <a href="tyler.html"><img src="PHOTOS/tylerthecreator.png" style="width: 100%; float: right;" class="cas" alt="tyler"></a>
+          <div class="centeredr" style="width: 100%; top: 7%"><a href="tyler.html"><h1>6.2 - EARFQUAKE by Tyler, The Creator</h1></a></div>
+          <div class="centeredr" style="line-height: 3vw; width: 100%; top: 54%"><a href="tyler.html"><h5>
+            'Cause you make my earthquake,
+            <br>
+            Oh, you make my earthquake,
+            <br>
+            Riding around, your love be shakin' me up,
+            <br>
+            And it's making my heart break
+            <br>
+            'Cause you make my earthquake (Earthquake, ooh)
+            <Br>
+            Oh, you make my earthquake,
+            <br>
+            Riding around, your love be shakin' me up
+            <br>
+            And it's making my heart break
+            <br>
+            I don't want no confrontation,
+            <br>
+            And you don't want my conversation,
+            <Br>
+            I just need some confirmation on how you feel, for real
+            <Br>
+            I don't want no side information,
+            <Br>
+            Dont leave, it's my fault
+            <Br>
+            'Cause when it all comes crashing down I'll need you
+          </h5></a></div>
+        </div>        
+      </td>
+    </tr>
+  </table>
+
+<br>
+<br>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="About.html">About Sapphire Heights</a>
+  <a href="ContactUs.html">Contact Us</a>
+  <a href="Courses.html">Courses</a>
+  <a href="Clubs.html">Extra-curricular</a>
+  <h1 style="position: absolute; bottom: 70px; left: 40px;">Sapphire Heights Academy<br>Home of the Blue Phoenix</h1>
+  <img src="PHOTOS/Screenshot_2023-11-30_at_8.16.28_PM-removebg-preview.png" alt="edu" style="width: 50px; position: absolute; bottom: 80px; left: 15px;">
+</div>
+
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+
+</div>
+
+<div class="mobiledisp">
+  <div class="container">
+  <img src="PHOTOS/IMG_1444.jpeg" style="width: 100%;" class="cas" alt="acad2">
+  <div class="centered" style="width: 100%;"><h1>English Sonnets</h1><h6>Explore the art and creativity of Sapphire Heights Academy. <br> Echoes of Heartache: A Collection of Tear-Stained Love Verses</h6></div>
+</div>  
+
+<table style="text-align: left;">
+  <tr>
+    <td>
+      <div class="containerl">
+        <a href="noahshakesperean.html"><img src="PHOTOS/noahshakesperean.png" style="width: 100%;" class="cas" alt="conangay"></a>
+        <div class="centeredlphone" style="width: 100%; top: 10%;"><a href="noahshakesperean.html"><h1>1.1 - Stellar Serenade by Noah De Belen</h1></a></div>
+        <div class="centeredlphone" style="line-height: 5.5vw; width: 100%;"><a href="noahshakesperean.html"><h5>
+          Through wooded lanes and wealth's abode we’ve been,
+          <br>
+          In jest, claimed they were beyond our amuse,
+          <br>
+          Socially matched, with backgrounds grim and thin,
+          <br>
+          Fathers that fled, and mothers left to booze.
+          <br>
+          A timeless tale, wherein love never lasts,
+          <br>
+          From afar, I yearn for what was, a tryst,
+          <br>
+          Yet now, in the present, I look upon the past,
+          <br>
+          A once-known soul, lost in life's lone abyss.
+          <br>
+          I mused, wandering, would bring love anew,
+          <br>
+          Said, "Distance breeds fondness," yet love departed,
+          <br>
+          The sole mistake, not fleeing love's pursue,
+          <br>
+          Now see the havoc that left us brokenhearted.
+          <br>
+          O'er seas and stars, we rode, love's own chart,
+          <br>
+          From Saturn's rings to Mars, love, worlds apart.
+        </h5></a></div>
+        <div class="top-left">
+          <span style="font-size:10px;cursor:pointer; color: #79B5DB;" onclick="openphone()"><span class="material-symbols-outlined" style="font-size: 40px;">menu</span></span>
+        </div>
+      </div>        
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="containerr">
+        <a href="conangray.html"><img src="PHOTOS/conangray.png" style="width: 100%; float: right;" class="cas" alt="rodrigo"></a>
+        <div class="centeredrphone" style="width: 100%; top: 10%;"><a href="conangray.html"><h1>1.2 - Astronomy by Conan Gray</h1></a></div>
+        <div class="centeredrphone" style="line-height: 5.5vw; width: 100%; top: 55%"><a href="conangray.html"><h5>
+          We drive through the woods, rich neighborhoods to watch
+          <br>
+          We joked as we looked that they were too good for us
+          <br>
+          'Cause socially speaking, we were the same
+          <br>
+          With runaway fathers and mothers who drank
+          <br>
+          A tale old as time, young love don't last for life
+          <Br>
+          From far away, I wish I'd stayed with you
+          <br>
+          But here, face to face, a stranger that I once knew
+          <br>
+          I thought if I wandered, I'd fall back in love
+          <br>
+          You said distance brings fondness, but guess not with us
+          <br>
+          The only mistake that we didn't make was run
+          <br>
+          (Now look what we've done)
+          <Br>
+          We've traveled the seas, we've ridden the stars
+          <br>
+          We've seen everything from Saturn to Mars
+          <br>
+          As much as it seems like you own my heart
+          <br>
+          It's astronomy, we're two worlds apart
+        </h5></a></div>
+      </div>        
+    </td>
+  </tr>
+</table>
+<table style="text-align: left;">
+  <tr>
+    <td>
+      <div class="containerl">
+        <a href="noahpetrarchan.html"><img src="PHOTOS/noahpet.png" style="width: 100%;" class="cas" alt="conangay"></a>
+        <div class="centeredlphone" style="width: 100%; top: 10%;"><a href="noahpetrarchan.html"><h1>2.1 - Betrayal, Without Remorse by Noah De Belen</h1></a></div>
+        <div class="centeredlphone" style="line-height: 5.5vw; width: 100%;"><a href="noahpetrarchan.html"><h5>
+          Brown eyes, guilt-laden, love whispered white lies,
+          <br>
+          I played the fool, aware, my heart askew,
+          <br>
+          To her, your words, perhaps actions untrue,
+          <Br>
+          Silent, I stayed, my love veiled in disguise.
+          <br>
+          Betrayed, your actions like venomous spies,
+          <br>
+          Unrepentant gaze, remorse in review,
+          <br>
+          The pain you caused, my heart's nowhere anew,
+          <br>
+          Sorry eludes, in your cold callous lies.
+          <br>
+          Together, in your arms, I found my best,
+          <br>
+          Embraced you at your worst, love's sweetest taste,
+          <br>
+          Yet it mattered little, love put to test.
+          <br>
+          Two weeks passed, a new passion you embraced,
+          <br>
+          With no cheating's stain, but traitor's harsh jest,
+          <br>
+          In the ruins of trust, my heart misplaced
+        </h5></a></div>
+        <div class="top-left">
+          <span style="font-size:10px;cursor:pointer; color: #79B5DB;" onclick="openphone()"><span class="material-symbols-outlined" style="font-size: 40px;">menu</span></span>
+        </div>
+      </div>        
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="containerr">
+        <a href="oliviarodrigo.html"><img src="PHOTOS/oliviarodrigo.png" style="width: 100%;" class="cas" alt="olivia"></a>
+        <div class="centeredrphone" style="width: 100%; top: 10%;"><a href="oliviarodrigo.html"><h1>2.2 - Traitor by Olivia Rodrigo</h1></a></div>
+        <div class="centeredrphone" style="line-height: 5.5vw; width: 100%; top: 55%"><a href="oliviarodrigo.html"><h5>
+          Brown guilty eyes and little white lies, yeah
+          <br>
+          I played dumb, but I always knew
+          <br>
+          That you talked to her, maybe did even worse
+          <br>
+          I kept quiet so I could keep you
+          <br>
+          You betrayed me
+          <br>
+          And I know that you'll never feel sorry
+          <br>
+          For the way I hurt, yeah
+          <br>
+          You talked to her when we were together
+          <br>
+          Loved you at your worst, but that didn't matter
+          <br>
+          It took you two weeks to go off and date her
+          <br>
+          Guess you didn't cheat, but you're still a traitor
+        </h5></a></div>
+      </div>        
+    </td>
+  </tr>
+</table>
+<table style="text-align: left;">
+    <tr>
+      <td>
+        <div class="containerl">
+          <a href="ninoshakesperean.html"><img src="PHOTOS/ninoshakes.png" style="width: 100%;" class="cas" alt="goofy"></a>
+          <div class="centeredlphone" style="width: 100%; top: 10%;"><a href="ninoshakesperean.html"><h1>3.1 - Endless Wanderlust by Nino Malang</h1></a></div>
+          <div class="centeredlphone" style="line-height: 5.5vw; width: 100%;"><a href="ninoshakesperean.html"><h5>
+            I sought for the troth of all my precious
+            <br>
+            All of my life, holding for a boundless fate
+            <br>
+            Enkindling twilight, the stars so callous
+            <Br>
+            Journey to unravel, memories to create
+            <br>
+            With such small hope, our wills scream to prevail
+            <br>
+            Bearing the pain of man's consequences
+            <br>
+            Through God's true providence, we weep in frail
+            <br>
+            Still in the gist of us, we find solace in distress
+            <br>
+            A journey for truth, path to uncover
+            <br>
+            Amidst the gales of sorrow, we proclaim
+            <br>
+            Fighting for loves sake, light to recover
+            <br>
+            For eternal flames burn the passion we claim
+            <br>
+            In all of eternity, I will not forget
+            <br>
+            That say of hope and cheers for chalice I shall beget
+          </h5></a></div>
+          <div class="top-left">
+            <span style="font-size:10px;cursor:pointer; color: #79B5DB;" onclick="openphone()"></span>
+          </div>
+        </div>        
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="containerr">
+          <a href="mythandroid.html"><img src="PHOTOS/mythandroid.png" style="width: 100%; float: right;" class="cas" alt="bettes"></a>
+          <div class="centeredrphone" style="width: 100%; bottom: -30%;"><a href="mythandroid.html"><h1>3.2 - Forever Lost by Myth & Roid</h1></a></div>
+          <div class="centeredrphone" style="line-height: 5.5vw; width: 100%; bottom: -18%"><a href="mythandroid.html"><h5>
+            I sighed that I lost something precious
+            <br>
+            I know that there may never be
+            <br>
+            An end to the price that we pay for our dreams
+            <br>
+            It can never be repaid to carry on is to carry a burden
+            <br>
+            In the twilight, we're praying for the lost
+            <br>
+            Fight all our grief, fight all our pain
+            <br>
+            To the fallen, we're hurting for the lost
+            <br>
+            Still we try to find solace, hand in hand together
+            <br>
+            In the twilight, we're going down this road
+            <br>
+            Full of your hope, full of your faith
+            <br>
+            To the fallen, we're going down this road
+            <br>
+            My journey has to go on with you
+            <br>
+            We will remember
+            <br>
+            That there's hope
+          </h5></a></div>
+        </div>        
+      </td>
+    </tr>
+  </table>
+  <table style="text-align: left;">
+    <tr>
+      <td>
+        <div class="containerl">
+          <a href="ninopetrarchan.html"><img src="PHOTOS/ninopet.png" style="width: 100%;" class="cas" alt="goofy"></a>
+          <div class="centeredlphone" style="width: 100%; top: 10%;"><a href="ninopetrarchan.html"><h1>4.1 - What could've been by Nino Malang</h1></a></div>
+          <div class="centeredlphone" style="line-height: 5.5vw; width: 100%;"><a href="ninopetrarchan.html"><h5>
+            Yesterday all troubles, so far away
+            <br>
+            Suddenly, all thoughts of love flow my game
+            <br>
+            Day by day, relighting yesterday's blame
+            <br>
+            Thy love for thee was such a game to play
+            <Br>
+            A place to shed tears and pray in dismay
+            <br>
+            Oh unfulfilling past, I trust aflame
+            <br>
+            Reminiscing treasures of the past, an undying flame
+            <br>
+            Wondering of the secrets that led me astray
+            <br>
+            Words, I have longed to say were such mistakes
+            <br>
+            For old day's amendment now deemed in pain
+            <br>
+            Thy love from the past, nothing but heartache
+            <br>
+            Nows a place to cover, but soon forsake
+            <br>
+            Relieving the demands of yesterday's vain
+            <br>
+            For yesterday's dream, I sought, for my sake
+          </h5></a></div>
+          <div class="top-left">
+            <span style="font-size:10px;cursor:pointer; color: #79B5DB;" onclick="openphone()"></span>
+          </div>
+        </div>        
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="containerr">
+          <a href="beatles.html"><img src="PHOTOS/beatles.png" style="width: 100%; float: right;" class="cas" alt="bettes"></a>
+          <div class="centeredrphone" style="width: 100%; bottom: -30%"><a href="beatles.html"><h1>4.2 - Yesterday by The Beatles</h1></a></div>
+          <div class="centeredrphone" style="line-height: 5.5vw; width: 100%; bottom: -18%;"><a href="beatles.html"><h5>
+            Yesterday all my troubles seemed so far away.
+            <br>
+            Now it looks as though they're here to stay.
+            <br>
+            Oh, I believe in yesterday.
+            <br>
+            Yesterday love was such an easy game to play.
+            <br>
+            Now I need a place to hide away.
+            <br>
+            Oh, I believe in yesterday.
+            <br>
+            Why she had to go?
+            <br>
+            I don't know, she wouldn't say.
+            <br>
+            I said something wrong.
+            <br>
+            Now I long for yesterday.
+            <br>
+            Yesterday love was such an easy game to play.
+            <br>
+            Now I need a place to hide away.
+            <br>
+            Oh, I believe in yesterday.
+            <Br>
+            Now I long for yesterday.
+          </h5></a></div>
+        </div>        
+      </td>
+    </tr>
+  </table>
+  <table style="text-align: left;">
+    <tr>
+      <td>
+        <div class="containerl">
+          <a href="ellizsonshakesperean.html"><img src="PHOTOS/eshakesperean.png" style="width: 100%;" class="cas" alt="kdot"></a>
+          <div class="centeredlphone" style="width: 100%; top: 10%;"><a href="ellizsonshakesperean.html"><h1>5.1 - How Love Unravels by Ellizson Saez</h1></a></div>
+          <div class="centeredlphone" style="line-height: 5.5vw; width: 100%; top: 36%"><a href="ellizsonshakesperean.html"><h5>
+            With no cars on curb, wouldst I still be loved?          
+            <br>                                              
+            Lacking deep pockets, wouldst thou be loving?
+            <br>
+            Speaketh truth, I prefer trust, tis above     
+            <br> 
+            Keep it sincere', don't hast thee, hath nothing
+            <br>
+            Bestow upon me a contest for wealth 
+            <br>         
+            There is nobody, none to outrun me  
+            <br>          
+            So grant me a challenge for my gold-held   
+            <br>
+            Feeling energized, feeling full of glee          
+            <br>
+            Amidst a life adorned with beauty's grace 
+            <br>   
+            Doth love me completely with all thy heart   
+            <br>
+            Beseech thee, let not passion's flame efface 			
+            <br>		          
+            Seeking only you, love me, never part         
+            <br>
+            To be with thee, I plead, love me with ease
+            <br>						
+            In thy arms I need, prithee, love me, please
+          </h5></a></div>
+          <div class="top-left">
+            <span style="font-size:10px;cursor:pointer; color: #79B5DB;" onclick="openphone()"><span class="material-symbols-outlined" style="font-size: 40px;">menu</span></span>
+          </div>
+        </div>        
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="containerr">
+          <a href="kendricklamar.html"><img src="PHOTOS/kendricklamar.png" style="width: 100%; float: right;" class="cas" alt="okona"></a>
+          <div class="centeredrphone" style="width: 100%; top: 10%;"><a href="kendricklamar.html"><h1>5.2 - LOVE by Kendrick Lamar & Zacari</h1></a></div>
+          <div class="centeredrphone" style="line-height: 5.5vw; width: 100%; top: 55%"><a href="kendricklamar.html"><h5>
+            If I didn't ride blade on curb, would you still (love me)?
+            <Br>
+            If I minimized my net worth, would you still (love me)?
+            <br>
+            Keep it a hundred, I'd rather you trust me than to (love me)
+            <Br>
+            Keep it a whole one hund', don't got you I got nothin' (oh, oh)
+            <br>
+            Give me a run for my money
+            <br>
+            There is nobody, no one to outrun me
+            <br>
+            So give me a run for my money
+            <br>
+            Sippin' bubbly, feelin' lovely
+            <br>
+            Livin' lovely
+            <br>
+            Just love me
+            <br>
+            I wanna be with you, just love me
+            <br>
+            I wanna be with you, just love me
+            <br>
+            I wanna be with you, ayy, I wanna be with you
+            <br>
+            I wanna be with you, love me, just love me
+          </h5></a></div>
+        </div>        
+      </td>
+    </tr>
+  </table>
+  <table style="text-align: left;">
+    <tr>
+      <td>
+        <div class="containerl">
+          <a href="ellizsonpetrarchan.html"><img src="PHOTOS/epetrarchan.png" style="width: 100%;" class="cas" alt="kdot"></a>
+          <div class="centeredlphone" style="width: 100%; top: 10%;"><a href="ellizsonpetrarchan.html"><h1>6.1 - Love's Fault Line by Ellizson Saez</h1></a></div>
+          <div class="centeredlphone" style="line-height: 5.5vw; width: 100%; top: 36%"><a href="ellizsonpetrarchan.html"><h5>
+            For thou cause my world to tremble and quake
+            <br>
+            Thou cause seismic waves of love and desire
+            <br>
+            Around we ride, your love shakes me afire
+            <br>
+            And 'tis tearing my heart to bitter break
+            <br>
+            Thy love, the cause of earth's deep, quaking shake
+            <br>
+            Oh, thou make my world shake with love's fine choir
+            <br>
+            Riding around, your love shakes and inspires
+            <br>
+            My heart falters, casting shadows and aches
+            <br>
+            No confrontation seeks my craving heart
+            <br>
+            Communication, not thy heart's ideal
+            <br>
+            Seeking confirmation of thy love's part
+            <br>
+            No more distractions, let our trust be real
+            <br>
+            'Tis my fault, I beg you not to depart
+            <br>
+            When all caves in, in thou I find appeal
+          </h5></a></div>
+          <div class="top-left">
+            <span style="font-size:10px;cursor:pointer; color: #79B5DB;" onclick="openphone()"><span class="material-symbols-outlined" style="font-size: 40px;">menu</span></span>
+          </div>
+        </div>        
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="containerr">
+          <a href="tyler.html"><img src="PHOTOS/tylerthecreator.png" style="width: 100%; float: right;" class="cas" alt="okona"></a>
+          <div class="centeredrphone" style="width: 100%; top: 10%;"><a href="tyler.html"><h1>6.2 - EARFQUAKE by Tyler, The Creator</h1></a></div>
+          <div class="centeredrphone" style="line-height: 5.5vw; width: 100%; top: 55%"><a href="tyler.html"><h5>
+            'Cause you make my earthquake,
+            <br>
+            Oh, you make my earthquake,
+            <br>
+            Riding around, your love be shakin' me up,
+            <br>
+            And it's making my heart break
+            <br>
+            'Cause you make my earthquake (Earthquake, ooh)
+            <Br>
+            Oh, you make my earthquake,
+            <br>
+            Riding around, your love be shakin' me up
+            <br>
+            And it's making my heart break
+            <br>
+            I don't want no confrontation,
+            <br>
+            And you don't want my conversation,
+            <Br>
+            I just need some confirmation on how you feel, for real
+            <Br>
+            I don't want no side information,
+            <Br>
+            Dont leave, it's my fault
+            <Br>
+            'Cause when it all comes crashing down I'll need you
+          </h5></a></div>
+        </div>        
+      </td>
+    </tr>
+  </table>
+
+<br>
+<br>
+
+
+<div id="mobileside" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closephone()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="About.html">About Sapphire Heights</a>
+  <a href="ContactUs.html">Contact Us</a>
+  <a href="Courses.html">Courses</a>
+  <a href="Clubs.html">Extra-curricular</a>
+  <h1 style="position: absolute; bottom: 70px; left: 40px;">Sapphire Heights Academy<br>Home of the Blue Phoenix</h1>
+  <img src="PHOTOS/Screenshot_2023-11-30_at_8.16.28_PM-removebg-preview.png" alt="edu" style="width: 50px; position: absolute; bottom: 80px; left: 15px;">
+</div>
+
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+
+  function openphone() {
+    document.getElementById("mobileside").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+  }
+  
+  function closephone() {
+    document.getElementById("mobileside").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+
+</script>
+
+</div>
+
+</body>
+</html> 

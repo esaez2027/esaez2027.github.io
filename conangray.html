@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *:focus{
+    outline: none;
+}
+html {
+    background: #f2f2f2;
+}
+body {
+    margin: 0;
+    font-family: "Raleway",sans-serif;
+    background: rgb(102,13,26);
+    background: linear-gradient(90deg, rgba(102,13,26,1) 0%, rgb(0, 0, 0) 35%, rgb(66, 10, 24) 100%);
+    overflow: hidden;
+}
+h1 {
+    margin: 0;
+    font-size: 33px;
+    color: #fff;
+    padding: 0 10%;
+}
+h3 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ccc;
+    padding: 0 10%;
+}
+.container {
+    display: block;
+    width: 100%;
+    height: 1080px;
+    margin: auto;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+.music-player {
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 570px;
+    margin: auto;
+    margin-top: 6%;
+    border-radius: 0 0 10px 10px;
+    background: transparent linear-gradient(to bottom,rgba(10,11,31,0.9) 50%,rgb(10,11,31) 70%) repeat scroll 0 0;
+    box-shadow: 1px 10px 20px 5px #222;
+}
+.cover {
+    float: left;
+    width: 100%;
+    height: 66%;
+}
+.cover img {
+    display: block;
+    position: absolute;
+    top: 8%;
+    left: 14%;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.titre {
+    float: left;
+    width: 100%;
+}
+.lecteur {
+    width: 100%;
+    display: block;
+    height: auto;
+    position: relative;
+    float: left;
+}
+
+@media screen and (max-width: 600px){
+    h1 {
+    margin: 0;
+    font-size: 25px;
+    color: #fff;
+    padding: 0 10%;
+}
+
+    .music-player {
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 470px;
+    margin: auto;
+    margin-top: 6%;
+    border-radius: 0 0 10px 10px;
+    background: transparent linear-gradient(to bottom,rgba(10,11,31,0.9) 50%,rgb(10,11,31) 70%) repeat scroll 0 0;
+    box-shadow: 1px 10px 20px 5px #222;
+}
+}
+
+
+
+</style>
+</head>
+<body>
+    <div class="contain">
+        <div class="container">
+            <a href="English.html"><img src="PHOTOS/backbutton.png" style="width: 80px; height: 80px;" alt="back"></a>
+            <div class="music-player">
+                <div class="cover">
+                    <img src="PHOTOS/superache.png" alt="conangay">
+                </div>
+                <div class="titre">
+                    <h3>Conan Gray</h3>
+                    <h1>Astronomy</h1>
+                </div>
+                <div class="lecteur">
+                    <audio controls style="width: 80%; margin-top: 30px; margin-left: 11%;">
+                        <source src="PHOTOS/astronomy.mp3" type="audio/mp3">
+                      </audio>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
